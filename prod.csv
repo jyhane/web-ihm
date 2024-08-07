@@ -1,0 +1,14 @@
+id,nom,prix,image
+1,Sac de sport,20.00,pack/ressources/prod1.png
+2,Basket,180.00,pack/ressources/prod2.png
+3,Short,89.00,pack/ressources/prod3.png
+4,Slip,20.00,pack/ressources/prod4.png
+5,Chaussettes,180.00,pack/ressources/prod5.png
+6,Maillot,89.00,pack/ressources/prod6.png
+7,Brassière,55.99,pack/ressources/prod7.png
+8,Jupe,24.99,pack/ressources/prod8.png
+9,Legging,67.99,pack/ressources/prod9.png
+10,Veste,80.00,pack/ressources/prod10.png
+11,Tee-shirt,80.00,pack/ressources/prod11.png
+12,Sweat à capuche,80.00,pack/ressources/prod12.png
+13,Robe,80.00,pack/ressources/prod13.png
