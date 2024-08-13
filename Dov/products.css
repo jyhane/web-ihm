@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.img-fluid{
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+
+.product-listing {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ddd;
+    border-bottom : 1px solid #ddd;
+}
+
+.sidebar h2,
+.sidebar h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.sidebar .shopBy {
+    background-color: #d2d5d8;
+}
+
+.sidebar p {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.sidebar .filter {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.sidebar label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sidebar .colors span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+}
+
+.products {
+    width: 100%;
+    padding: 20px;
+}
+
+.banner img {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.product-item {
+    margin-bottom: 20px;
+    flex: 1 0 100%;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item h5 {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.product-item p {
+    color: #e74c3c;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+}
+
+.pagination strong {
+    margin: 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (min-width: 768px)
+{
+    .product-listing {
+        flex-wrap: nowrap;
+    }
+    .sidebar {
+        width: 20%;
+    }
+    .products {
+        width: 75%;
+    }
+    .product-item {
+        flex: 1 0 30%;
+    }
+}
+.page-container {
+    max-width: 1179px;
+    margin: 0 auto; /* Centrer le conteneur horizontalement */
+    padding: 0 15px; /* Ajouter un peu de padding pour éviter que le contenu touche les bords */
+}
+
+@media (min-width: 768px) {
+    .page-container {
+        max-width: 1179px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 767px) {
+    .page-container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
